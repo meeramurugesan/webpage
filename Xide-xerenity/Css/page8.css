@@ -1,0 +1,529 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika:wght@700&family=DM+Serif+Text&family=Inter+Tight:wght@300&family=Inter:wght@700&family=Kalnia:wght@100;200&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,600;1,100;1,400&family=Noto+Serif+Display:ital,wght@0,400;1,700&family=Noto+Serif:ital,wght@0,600;0,700;1,100;1,600;1,700&family=Oswald&family=Playfair+Display:ital,wght@0,400;0,500;1,600;1,900&family=Poppins:ital,wght@0,200;0,400;1,600&family=Raleway:wght@200;300&display=swap");
+
+.footer-content {
+  width: 100%;
+  height: 50vh;
+  background-image: url("../Assests/image/footer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.social-icons{
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+  padding-top: 40px;
+  padding-right: 46px;
+}
+.liquid-logo{
+  width: 112px;
+  height: 101px;
+}
+.logo{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+/*.para-one{
+  width: 237px;
+  height: 30px;
+}*/
+
+.bottom-para{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.para-one{
+  width: 185px;
+  height: 30px;
+  color: white;
+font-size: 11px;
+font-family: Noto Serif;
+font-weight: 500;
+line-height: 15.23px;
+letter-spacing: 0.22px;
+word-wrap: break-word
+}
+.para-two{
+/*  width: 154px;
+  height: 60px;*/
+  color: white;
+font-size: 14px;
+font-family: Montserrat;
+font-weight: 400;
+line-height: 20px;
+word-wrap: break-word;
+padding-left: 50px;
+}
+.para-three{
+ /* width: 106px;
+  height: 60px;*/
+  color: white;
+font-size: 14px;
+font-family: Montserrat;
+font-weight: 400;
+line-height: 20px;
+word-wrap: break-word;
+padding-right: 15px;
+box-sizing: border-box;
+padding: 40px;
+}
+span{
+  color: white;
+font-size: 14px;
+font-family: Montserrat;
+font-weight: 700;
+text-decoration: underline;
+line-height: 20px;
+word-wrap: break-word
+}
+
+.page-btn{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.backbtn{
+    background-image: url('../Assests/image/back-btn.svg');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    border-radius: 50%;
+    border: 1px solid #fff;
+  }
+.backbtn:hover{
+  background-color: black;
+  box-shadow: 0px 0px 5px black, 0px 0px 25px black, 0px p0x 50px black;
+}
+  
+/*a{
+  width: 79px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #fff;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 10px;
+  
+}
+a:hover{
+  background-color: black;
+  color: #fff;
+}*/
+html,body{
+  margin: 0;
+  padding: 0;
+  overflow-x: 0;
+  overflow-y: 0;
+}
+
+@media all and (max-width:1000px){
+  .footer-content {
+    width: 100%;
+    height: 50%;
+    background-image: url("../Assests/image/pexels-charlotte-may-5947113\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .social-icons{
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    padding-top: 40px;
+    padding-right: 46px;
+  }
+  .liquid-logo{
+    width: 112px;
+    height: 101px;
+  }
+  .logo{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    flex-direction: column;
+  }
+  
+  /*.para-one{
+    width: 237px;
+    height: 30px;
+  }*/
+  
+  .bottom-para{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 50px;
+  }
+  
+  .para-one{
+    width: 185px;
+    height: 30px;
+    color: white;
+  font-size: 11px;
+  font-family: Noto Serif;
+  font-weight: 500;
+  line-height: 15.23px;
+  letter-spacing: 0.22px;
+  word-wrap: break-word
+  }
+  .para-two{
+   width: 386px;
+    height: 4px;
+    color: white;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+  padding-left: 50px;
+  }
+  .para-three{
+    width: 354px;
+    height: 2px;
+    color: white;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+  padding-right: 15px;
+  box-sizing: border-box;
+  padding: 40px;
+  }
+  span{
+    color: white;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 20px;
+  word-wrap: break-word
+  }
+  
+  .page-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  .backbtn{
+      background-image: url('../Assests/image/back-btn.svg');
+      background-repeat: no-repeat;
+      background-size: 50%;
+      background-position: center;
+      width: 36px;
+      height: 36px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      background-color: #000;
+      border-radius: 50%;
+      border: 1px solid #fff;
+    }
+  .backbtn:hover{
+    background-color: black;
+  }
+  
+}
+@media all and (max-width:800px){
+  .footer-content {
+    background-image: url("../Assests/image/pexels-charlotte-may-5947113\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .social-icons{
+    /*width: 112px;
+    height: 31px;*/
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    padding-top: 25px;
+    padding-right: 46px;
+  }
+  .liquid-logo{
+    height: 101px;
+    padding-top: 70px;
+  }
+  .logo{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+    margin-left: 20px;
+
+  }
+  .logo img{
+    padding-left: 21px;
+  }
+ 
+  
+  
+  .bottom-para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 50px;
+  }
+  .para-one{
+    /*width: 147px;
+    height: 9px;*/
+    font-size: 10px;
+    line-height: 15.23px;
+    margin-left:50px;
+   
+  }
+  .para-two{
+    width: 154px;
+    height: 60px;
+    font-size: 10px;
+    line-height: 20px;
+    padding-left: 64px;
+  }
+  .para-three{
+    width: 197px;
+    height: 60px;
+    font-size: 10px;
+    line-height: 20px;
+    position: relative;
+    bottom: 200px;
+    padding-left: 66px;
+  }
+  span{
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .social-icons img{
+    width: 30px;
+    height: 30px;
+ } 
+ .page-btn{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-left: 47px;
+  position: relative;
+  bottom: 36px;
+}
+.backbtn{
+    width: 30px;
+    height: 33px;
+  }
+  }
+  @media all and (max-width:600px){
+    .footer-content {
+      background-image: url("../Assests/image/pexels-charlotte-may-5947113\ 1.png");
+      background-repeat: no-repeat;
+      background-position: 29%;
+      background-size: cover;
+    }
+    .social-icons{
+      /*width: 112px;
+      height: 31px;*/
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 35px;
+      padding-right: 8px;
+    }
+   
+    .liquid-logo{
+      height: 101px;
+      padding-top: 10px;
+  
+    }
+    .logo{
+      /*width: 112px;
+      height: 101px;*/
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 40px;
+      padding-right: 61px;
+  
+    }
+    .bottom-para{
+      display: flex;
+      align-items: center bottom;
+      justify-content: center;
+      flex-direction: column;
+      padding-bottom: 22px;
+      padding-left: 0px;
+      padding-top: 70px;
+    }
+    .para-one{
+      width: 147px;
+      height: 8px;
+      font-size: 8px;
+      line-height: 15.23px;
+    }
+    .para-two{
+      width: 138px;
+      height: 60px;
+      font-size: 10px;
+      line-height: 26px;
+      padding-right: 5px;
+      width: 138px;
+      height: 60px;
+    }
+    .para-three{
+      width: 202px;
+      height: 60px;
+      font-size: 10px;
+      line-height: 44px;
+      padding-left: 75px;
+    }
+    span{
+      font-size: 10px;
+      line-height: 20px;
+    }
+    .social-icons img{
+       width: 30px;
+       height: 30px;
+    }
+    .page-btn{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      padding: 30px;
+      box-sizing: border-box;
+      margin-left: 47px;
+      position: relative;
+      bottom: 36px;
+    }
+    .backbtn{
+      width: 25px;
+      height: 25px;
+    }
+}
+
+
+
+    @media all and (max-width:400px){
+      .footer-content {
+        width: 100%;
+        height: 50%;
+        background-image: url("../Assests/image/pexels-charlotte-may-5947113\ 1.png");
+        background-repeat: no-repeat;
+        background-position: 14%;
+        background-size: cover;
+      }
+      .social-icons{
+        /*width: 112px;
+        height: 31px;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 34px;
+        padding-right: 8px;
+      }
+     
+      .liquid-logo{
+     
+        height: 101px;
+      }
+      .logo{
+       /* width: 112px;
+        height: 101px;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 87px;
+    
+      }
+      .bottom-para{
+        display: flex;
+        align-items: center bottom;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 7px;
+        padding-left: 50px;
+      }
+      .para-one{
+        width: 147px;
+        height: 8px;
+        font-size: 8px;
+        line-height: 15.23px;
+      }
+      .para-two{
+       /* width: 131px;
+        height: 6px;*/
+        font-size: 8px;
+        line-height: 185px;
+        padding-right: 23px;
+        width: 138px;
+        height: 60px;
+        position: relative;
+        bottom: 74px;
+
+      }
+      .para-three{
+        width: 215px;
+        height: 60px;
+        font-size: 8px;
+        line-height: 20px;
+        position: relative;
+        bottom: 169px;
+      }
+      span{
+        font-size: 8px;
+        line-height: 20px;
+      }
+      .social-icons img{
+         width: 30px;
+         height: 30px;
+      }
+      .backbtn{
+        width: 15px;
+        height: 15px;
+      }
+      .page-btn{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        padding: 30px;
+        box-sizing: border-box;
+        margin-left: 7px;
+       /* position: relative;
+        bottom: 36px;*/
+      }
+      }
+      
